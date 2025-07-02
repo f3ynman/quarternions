@@ -2,7 +2,7 @@
 
 function eigenvector = DCMtoQUAT(Q)
 % Input: Direction Cosine Matrix
-% Output: Quaternion
+% Output: Quaternion [q1, q2, q3, q4 (scalar)]
 
 % Fail-proof version (in case q4 = 0)
     % Reference: Bar-Itzhak, 2000; Jennings, 1977
@@ -37,9 +37,8 @@ no_iteration = no_iteration;
 lambda_max = lambda_new;
 eigenvector = vnew;
 
-disp(no_iteration);
-disp(lambda_max);
-disp(eigenvector);
-
+% disp(no_iteration);
+% disp(lambda_max);
+% disp(eigenvector);
 
 end
