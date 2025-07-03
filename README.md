@@ -1,1 +1,1 @@
-# quarternions
+# quaternions
