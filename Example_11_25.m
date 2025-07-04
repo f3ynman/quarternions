@@ -1,5 +1,7 @@
 clc; clear; close all
 
+addpath("functions")
+
 %Example 11.25 (Curtis, 2020)
 
 %Body Axis [I,J,K] -> [i,j,k]
